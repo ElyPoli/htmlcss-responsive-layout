@@ -1,8 +1,8 @@
 :root {
     --primary-color: #0084fd;
     --secondary-color: #b5ddff;
-    /* --third-color: #969697;
-    --border-color: #ececed;
+    --third-color: #9792e4;
+    /* --border-color: #ececed;
     --btn-hover-color: #4089ff;
     --default-section-space: 70px;
     --default-section-space-large: 90px; */
@@ -33,12 +33,16 @@ section {
     flex-wrap: wrap;
 }
 
-.flex-space-between {
+.flex-justify-between {
     justify-content: space-between;
 }
 
 .flex-align-center {
     align-items: center;
+}
+
+.flex-basis {
+    flex-basis: 100%;
 }
 
 /* Elenchi */
@@ -98,7 +102,21 @@ nav .btn {
     background-color: var(--secondary-color);
     border-radius: 15px;
     padding: 1rem;
-    flex-basis: 100%;
     margin: 1rem 0;
 }
 /* END HEADER */
+
+/* START MAIN */
+/* Section Strategic Planning */
+.section-planning {
+    background-color: var(--third-color);
+    padding: 1rem;
+}
+
+.section-planning div:last-child {
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 2rem 0;
+}
+
+/* END MAIN */
