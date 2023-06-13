@@ -1,7 +1,7 @@
 :root {
     --primary-color: #0084fd;
-    /* --secondary-color: #b4d0e7;
-    --third-color: #969697;
+    --secondary-color: #b5ddff;
+    /* --third-color: #969697;
     --border-color: #ececed;
     --btn-hover-color: #4089ff;
     --default-section-space: 70px;
@@ -16,6 +16,10 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    padding: 2rem 1rem;
 }
 
 .container {
@@ -87,5 +91,14 @@ nav .burger-menu > i:active ~ ul {
 nav .btn {
     display: none;
 }
-
 /* END NAV */
+
+/* STAR HEADER */
+.card-header {
+    background-color: var(--secondary-color);
+    border-radius: 15px;
+    padding: 1rem;
+    flex-basis: 100%;
+    margin: 1rem 0;
+}
+/* END HEADER */
