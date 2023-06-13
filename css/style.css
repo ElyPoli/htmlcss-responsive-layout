@@ -119,4 +119,20 @@ nav .btn {
     margin: 2rem 0;
 }
 
+/* Section Testimonials */
+.section-testimonials {
+    padding: 1rem;
+}
+
+.section-testimonials > div {
+    margin-top: 1rem;
+}
+
+.section-testimonials-card {
+    background-color: var(--third-color);
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
 /* END MAIN */
