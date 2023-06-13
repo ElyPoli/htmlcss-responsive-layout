@@ -102,6 +102,10 @@ nav .btn {
 /* END NAV */
 
 /* STAR HEADER */
+header {
+    margin: 2rem auto;
+}
+
 .card-header {
     background-color: var(--secondary-color);
 }
@@ -114,7 +118,8 @@ nav .btn {
     padding: 1rem;
 }
 
-.section-planning div:last-child {
+.section-planning-card {
+    background-color: #ffffff;
     border-radius: 15px;
     padding: 1rem;
     margin: 2rem auto;
@@ -162,3 +167,8 @@ footer {
     padding: 2rem;
 }
 /* END FOOTER */
+
+/* Bordo da togliere successivamente */
+.border {
+    border: 2px dotted red;
+}
