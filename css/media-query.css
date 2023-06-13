@@ -1,16 +1,31 @@
-/* Mobile First (min-width) */
+/* Mobile First (min-width) -> mobile 480 - tablet 768 */
 
-/* @media screen and (min-width: 576px) {
-}
-
+/* Tablet */
 @media screen and (min-width: 768px) {
+    header .flex-basis {
+        flex-basis: calc(100% / 3 -  1rem);
+    }
+
+    header > section > div {
+        flex-grow: 1;
+    }
+    
+    header section div:first-of-type {
+        flex-grow: 2;
+        flex-basis: calc(100% / 2);
+        background-color: brown!important;
+    }
+
+    .section-benefits .card {
+        flex-basis: calc(100% / 2 -  1rem);
+    }
+
+    .section-about > div {
+        flex-basis: calc(100% / 2 -  1rem);
+    }
+
 }
 
+/* Desktop */
 @media screen and (min-width: 992px) {
 }
-
-@media screen and (min-width: 1200px) {
-}
-
-@media screen and (min-width: 1400px) {
-} */

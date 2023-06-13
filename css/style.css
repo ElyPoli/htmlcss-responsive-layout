@@ -23,12 +23,12 @@ section {
 .card {
     border-radius: 15px;
     padding: 1rem;
-    margin: 1rem 0;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .flex-justify-between {
@@ -127,7 +127,7 @@ header {
 
 /* Section Testimonials */
 .section-testimonials {
-    padding: 1rem;
+    padding: 2rem 1rem;
 }
 
 .section-testimonials > div {
