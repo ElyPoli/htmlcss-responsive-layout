@@ -146,4 +146,9 @@ nav .btn {
     border: 1px dotted black;
 }
 
+/* Section About Us */
+.section-about {
+    padding: 1rem;
+}
+
 /* END MAIN */
