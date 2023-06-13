@@ -1,4 +1,4 @@
-/* Mobile First (min-width) -> mobile 480 - tablet 768 */
+/* Mobile First (min-width) */
 
 /* Tablet */
 @media screen and (min-width: 768px) {
@@ -28,4 +28,23 @@
 
 /* Desktop */
 @media screen and (min-width: 992px) {
+    nav .burger-menu > ul {
+        display: flex;
+    }
+    
+    nav .burger-menu > i {
+        display: none;
+    }
+    
+    nav .btn {
+        display: flex;
+    }
+
+    .section-planning .flex-basis {
+        flex-basis: calc(100% / 2 - 1rem);
+    }
+
+    .section-benefits .card {
+        flex-basis: calc(100% / 3 -  1rem);
+    }
 }
