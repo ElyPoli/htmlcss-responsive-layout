@@ -22,6 +22,12 @@ section {
     padding: 2rem 1rem;
 }
 
+.card {
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
 .container {
     margin: 0 auto;
     max-width: 980px;
@@ -100,9 +106,6 @@ nav .btn {
 /* STAR HEADER */
 .card-header {
     background-color: var(--secondary-color);
-    border-radius: 15px;
-    padding: 1rem;
-    margin: 1rem 0;
 }
 /* END HEADER */
 
@@ -130,9 +133,17 @@ nav .btn {
 
 .section-testimonials-card {
     background-color: var(--third-color);
-    border-radius: 15px;
+}
+
+/* Section Benefits */
+.section-benefits {
     padding: 1rem;
-    margin: 1rem 0;
+    background-color: var(--third-color);
+}
+
+.section-benefits-card {
+    background-color: #ffffff;
+    border: 1px dotted black;
 }
 
 /* END MAIN */
