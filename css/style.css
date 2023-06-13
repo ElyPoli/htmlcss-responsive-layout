@@ -2,10 +2,8 @@
     --primary-color: #0084fd;
     --secondary-color: #b5ddff;
     --third-color: #9792e4;
-    /* --border-color: #ececed;
-    --btn-hover-color: #4089ff;
-    --default-section-space: 70px;
-    --default-section-space-large: 90px; */
+    --footer-color: #333333;
+    --cta-color: #fdc15f;
 }
 
 * {
@@ -157,3 +155,10 @@ nav .btn {
     background-color: var(--third-color);
 }
 /* END MAIN */
+
+/* START FOOTER */
+footer {
+    background-color: var(--footer-color);
+    padding: 2rem;
+}
+/* END FOOTER */
