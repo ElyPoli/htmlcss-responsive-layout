@@ -28,12 +28,6 @@ section {
     margin: 1rem 0;
 }
 
-.container {
-    margin: 0 auto;
-    max-width: 980px;
-    padding: 1rem;
-}
-
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -49,6 +43,12 @@ section {
 
 .flex-basis {
     flex-basis: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 1rem;
 }
 
 /* Elenchi */
@@ -119,7 +119,7 @@ nav .btn {
 .section-planning div:last-child {
     border-radius: 15px;
     padding: 1rem;
-    margin: 2rem 0;
+    margin: 2rem auto;
 }
 
 /* Section Testimonials */
@@ -151,4 +151,9 @@ nav .btn {
     padding: 1rem;
 }
 
+/* Section Get Start */
+.section-getstart {
+    padding: 1rem;
+    background-color: var(--third-color);
+}
 /* END MAIN */
