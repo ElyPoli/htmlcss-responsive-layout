@@ -403,13 +403,27 @@ header {
     padding: 1.5rem 0;
     border-radius: 40px;
 }
-
 /* END MAIN */
 
 /* START FOOTER */
 footer {
     background-color: var(--footer-color);
-    padding: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+footer p {
+    color: #ffffff;
+    text-align: center;
+}
+
+footer > div > p:first-of-type {
+    padding-bottom: 2.5rem;
+}
+
+footer p > a {
+    color: var(--third-color);
+    text-decoration: underline;
 }
 /* END FOOTER */
 
