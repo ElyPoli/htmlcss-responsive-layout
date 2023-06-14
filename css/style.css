@@ -176,19 +176,13 @@ header {
     padding-bottom: 2rem;
 }
 
-
-
-/* .card-header-img {
+.card-header-img {
     margin-bottom: -2.3rem;
 }
 
 .card-header-img img {
-    max-width: calc(100 / 2);
-} */
-
-
-
-
+    max-width: 50%;
+}
 /* END HEADER */
 
 /* START MAIN */
