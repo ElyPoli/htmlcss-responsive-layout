@@ -13,7 +13,6 @@
     header section div:first-of-type {
         flex-grow: 2;
         flex-basis: calc(100% / 2);
-        background-color: brown!important;
     }
 
     .section-benefits .card {

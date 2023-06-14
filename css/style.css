@@ -20,9 +20,31 @@ section {
     padding: 2rem 1rem;
 }
 
+/* Stile testo */
+h2 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 3rem 0;
+}
+
+h3 {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 1.3rem;
+}
+
+p {
+    padding-bottom: 1.3rem;
+    line-height: 2rem;
+}
+/****/
+
 .card {
-    border-radius: 15px;
-    padding: 1rem;
+    border-radius: 20px;
+    padding: 2rem;
 }
 
 .row {
@@ -62,6 +84,17 @@ ul {
     color: #000000;
     font-size: 1.2rem;
     padding: .7rem 1rem;
+}
+
+.btn-dark {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: .7rem 1rem;
+    text-align: center;
+}
+
+.btn > i {
+    padding-right: .5rem;
 }
 
 /* Link */
@@ -108,7 +141,28 @@ header {
 
 .card-header {
     background-color: var(--secondary-color);
+    text-align: center;
 }
+
+.card-header > i {
+    color: var(--primary-color);
+    font-size: 5rem;
+    padding-bottom: 2rem;
+}
+
+
+
+/* .card-header-img {
+    margin-bottom: -2.3rem;
+}
+
+.card-header-img img {
+    max-width: calc(100 / 2);
+} */
+
+
+
+
 /* END HEADER */
 
 /* START MAIN */
@@ -118,11 +172,20 @@ header {
     padding: 1rem;
 }
 
+.section-planning p {
+    color: #ffffff;
+}
+
+.section-planning img {
+    max-width: 100%;
+}
+
 .section-planning-card {
     background-color: #ffffff;
-    border-radius: 15px;
-    padding: 1rem;
-    margin: 2rem auto;
+}
+
+.section-planning-card h3 {
+    color: #000000;
 }
 
 /* Section Testimonials */
