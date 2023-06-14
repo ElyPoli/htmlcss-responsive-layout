@@ -41,7 +41,11 @@
     }
 
     .section-testimonials-card > div {
-        justify-content: space-around;
+        justify-content: space-between;
+    }
+
+    .section-testimonials-card > div > div:last-of-type {
+        flex-grow: 2;
     }
 }
 
@@ -63,7 +67,21 @@
         flex-basis: calc(100% / 2 - 1rem);
     }
 
+    .section-planning > div > div:last-of-type {
+        align-self: flex-end;
+    }
+
+    .section-planning-card > .flex-basis {
+        flex-basis: 100%;
+    }
+    
+    .section-planning > div:first-of-type > div > img {
+        padding-bottom: 8rem;
+    }
+
     .section-benefits .card {
         flex-basis: calc(100% / 3 -  1rem);
     }
+
+    
 }
