@@ -16,13 +16,33 @@
     }
 
     .section-benefits .card {
-        flex-basis: calc(100% / 2 -  1rem);
+        flex-basis: calc(100% / 2 -  .5rem);
+    }
+
+    .section-about {
+        gap: 2rem;
+    }
+    
+    h2 {
+        text-align: left;
+        font-size: 3rem;
     }
 
     .section-about > div {
         flex-basis: calc(100% / 2 -  1rem);
     }
 
+    .section-testimonials-card > div > .flex-basis {
+        flex-basis: calc(100% / 2);
+    }
+
+    .section-testimonials-card > div > .flex-basis > p {
+        padding-top: 2rem;
+    }
+
+    .section-testimonials-card > div {
+        justify-content: space-around;
+    }
 }
 
 /* Desktop */
