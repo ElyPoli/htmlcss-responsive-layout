@@ -2,6 +2,7 @@
     --primary-color: #0084fd;
     --secondary-color: #b5ddff;
     --third-color: #9792e4;
+    --i-color: #38364e;
     --footer-color: #333333;
     --cta-color: #fdc15f;
 }
@@ -36,9 +37,19 @@ h3 {
     padding-bottom: 1.3rem;
 }
 
+h4 {
+    font-size: .8rem;
+    text-align: center;
+    padding-bottom: 1.3rem;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
 p {
     padding-bottom: 1.3rem;
     line-height: 2rem;
+    font-size: 1rem;
+    font-weight: normal;
 }
 /****/
 
@@ -55,6 +66,10 @@ p {
 
 .flex-justify-between {
     justify-content: space-between;
+}
+
+.flex-justify-center {
+    justify-content: center;
 }
 
 .flex-align-center {
@@ -93,9 +108,20 @@ ul {
     text-align: center;
 }
 
+.btn-light {
+    background-color: var(--third-color);
+    border-radius: 50%;
+}
+
 .btn > i {
     padding-right: .5rem;
 }
+
+.btn-light > i {
+    padding-right: 0;
+    color: var(--i-color);
+}
+
 
 /* Link */
 a {
@@ -184,13 +210,45 @@ header {
     background-color: #ffffff;
 }
 
-.section-planning-card h3 {
+.section-planning-card .btn-light {
+    aspect-ratio: 1/1;
+}
+
+.section-planning-card h3, .section-planning-card p {
     color: #000000;
+    text-align: center;
+}
+
+.section-planning-card h3 {
+    padding-top: 1.3rem;
+}
+
+.section-planning-card p {
+    font-style: italic;
 }
 
 /* Section Testimonials */
 .section-testimonials {
-    padding: 2rem 1rem;
+    padding: 3rem 1rem 4rem 1rem;
+}
+
+.section-testimonials h2 {
+    color: var(--third-color);
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 2rem;
+}
+
+.section-testimonials h3 {
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 1.3rem;
+    text-transform: uppercase;
+}
+
+.section-testimonials p {
+    text-align: center;
 }
 
 .section-testimonials > div {
@@ -199,6 +257,26 @@ header {
 
 .section-testimonials-card {
     background-color: var(--third-color);
+    border-radius: 30px;
+}
+
+.section-testimonials-card p, .section-testimonials-card i {
+    color: #ffffff;
+}
+
+.section-testimonials-card i {
+    font-size: 1.5rem;
+}
+
+.section-testimonials-img {
+    max-width: 200px;
+}
+
+.section-testimonials-img img {
+    max-width: 100%;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
 
 /* Section Benefits */
@@ -207,21 +285,125 @@ header {
     background-color: var(--third-color);
 }
 
+.section-benefits h2 {
+    text-align: center;
+}
+
 .section-benefits-card {
     background-color: #ffffff;
     border: 1px dotted black;
 }
 
+.section-benefits-card h3 {
+    color: var(--third-color);
+    text-align: left;
+}
+
+.section-benefits-card h3:first-of-type {
+    font-size: 3.5rem;
+}
+
+.section-benefits-card .btn-light {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 20px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
 /* Section About Us */
 .section-about {
-    padding: 1rem;
+    padding: 3rem 1rem 4rem 1rem;
+}
+
+.section-about p {
+    color: #000000;
+}
+
+.section-about h2 {
+    color: var(--third-color);
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 2rem;
+}
+
+.section-about h3 {
+    color: var(--third-color);
+    padding-bottom: 1.3rem;
+    padding-top: 1.3rem;
+    text-align: left;
+}
+
+.section-about-card-img {
+    max-width: 200px;
+    position: relative;
+}
+
+.section-about-card-img img {
+    max-width: 100%;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.section-about-card-img i {
+    color: var(--third-color);
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 4rem;
+}
+
+.section-about .btn-light {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: .5rem 1.2rem;
+}
+
+.section-about .btn-light > i {
+    color: #ffffff;
 }
 
 /* Section Get Start */
 .section-getstart {
-    padding: 1rem;
+    padding: 3rem 1rem 4rem 1rem;
     background-color: var(--third-color);
 }
+
+.section-getstart h2, .section-getstart h4, .section-getstart p {
+    color: #ffffff;
+    text-align: center;
+}
+
+.section-getstart p > a {
+    text-decoration: underline;
+}
+
+.section-getstart h2 {
+    padding: 1rem 0;
+}
+
+.section-getstart h2:last-of-type {
+    color: var(--cta-color);
+    font-size: 3rem;
+}
+
+.section-getstart h4 {
+    font-size: 1rem;
+}
+
+.section-getstart .btn {
+    color: var(--third-color);
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 1.5rem 0;
+    border-radius: 40px;
+}
+
 /* END MAIN */
 
 /* START FOOTER */
